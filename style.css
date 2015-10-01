@@ -1,0 +1,150 @@
+/* Styles go here */
+
+/* Styles go here */
+
+body {
+    background: #000 !important;
+    color: #fff !important;
+}
+.center {
+    text-align: center;
+}
+.container {
+    width: 90%;
+}
+.drink {
+    color: #c3a1db;
+    text-transform: capitalize;
+}
+.drink_for_orders {
+    color: red;
+    text-transform: capitalize;
+}
+.ingrediant {
+    border-bottom: 1px solid #655e72;
+    padding-bottom: 5px;
+    margin-top: 5px;
+}
+.qty,
+.mt {
+    float: right;
+}
+.mt {
+    text-transform: uppercase;
+    padding-left: 5px;
+    color: #90819b;
+    font-size: 10px;
+    padding-top: 5px;
+    width: 30px;
+}
+.col-20 {
+    float: left;
+    width: 20%;
+}
+.qtyText {
+    width: 30px;
+    text-align: center;
+}
+a {
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.placeOrderList li {
+    list-style-type: none;
+    float: left;
+    width: 100%;
+}
+.order .header {
+    background: #211d23;
+    width: 85%;
+    height: 50px;
+    border: 0px solid #fff;
+    color: #c3a1db;
+    padding-top: 4px;
+    padding-left: 10px;
+    text-transform: capitalize;
+}
+.order .body {
+    width: 85%;
+    padding-left: 10px;
+    background: #37373a;
+    height: 150px;
+}
+.order .body ul {
+    padding: 0px;
+    height: 80px;
+}
+.order .body ul li {
+    list-style: none;
+}
+.plus,
+.minus,
+.number {
+    float: left;
+    padding: 10px;
+    color: #000;
+}
+.order .quantity .number {
+    width: 50px;
+}
+.orderBtnContainer {
+    margin-top: 30px;
+}
+.orderBtnContainer input[type=button] {
+    width: 30%;
+    background: #9b59b6;
+    color: #fff;
+    height: 40px;
+    border: 0px;
+    border-radius: 10px;
+}
+
+/* additional css */
+.marginT20{
+    margin-top:20px;
+}
+.centered{
+    display:inline-block;
+}
+.quantity{
+    text-align:center;
+}
+.orderBtnContainer input[type=button]{
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -o-border-radius: 6px;
+    border-radius: 6px;
+
+}
+.btn-arith{
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    font-size: 60px;
+    padding: 0 8px;
+    line-height: 0.8;
+    color:rgb(34,177,95);
+
+}
+.btn-arith.pull-right{
+    line-height: 0.6;
+    color:rgb(194,56,45);
+}
+.order .drink{
+    color:#90819b;
+}
+.qtyText{
+    color:rgb(55,54,59);
+    font-size:30px;
+    font-weight:bold;
+    padding:0;
+}
+@media (max-width: 500px) {
+    .order.col-xs-6 {
+        width: 100%;
+        float: left;
+    }
+
+}
+
