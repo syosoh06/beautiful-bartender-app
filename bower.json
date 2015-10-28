@@ -1,0 +1,9 @@
+{
+  "name": "bar app",
+  "version": "0.0.1",
+  "dependencies": {
+    "bootstrap": "latest",
+    "angular": "latest",
+    "jquery": "latest"
+  }
+}
